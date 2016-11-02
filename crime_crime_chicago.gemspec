@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = CrimeCrimeChicago::VERSION
   spec.authors       = ["Brennantwalsh"]
   spec.email         = ["brennanthomaswalsh@gmail.com"]
-
+  spec.license =       "MIT"
   spec.summary       = %q{Crime! In Chicago!}
   spec.description   = %q{This is a list of Crime! In Chicago. A bit ago}
   spec.homepage      = "https://github.com/Brennantwalsh/crime_crime_chicago"
