@@ -25,6 +25,8 @@ Or install it yourself as:
 ```ruby
   @crimes = CrimeCrimeChicago::Crime.all
   @crime = CrimeCrimeChicago::Crime.find(:id)
+
+  note: should not be used for relevant analysis 
 ```
 ## Development
 
