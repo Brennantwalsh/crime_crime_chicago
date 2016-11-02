@@ -1,4 +1,5 @@
 require "crime_crime_chicago/version"
+require "unirest"
 
 module CrimeCrimeChicago
   class Crime
