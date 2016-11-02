@@ -22,7 +22,7 @@ module CrimeCrimeChicago
     end
 
     def self.find(params_id)
-      Crime.new(Unirest.get('https://data.cityofchicago.org/resource/vwwp-7yr9/#{params_id}.json').body)
+      Crime.new(Unirest.get("https://data.cityofchicago.org/resource/vwwp-7yr9/#{params_id}.json").body)
     end
   end
 end
